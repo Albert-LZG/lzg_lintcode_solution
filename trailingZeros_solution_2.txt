@@ -12,7 +12,7 @@
 因为25其实可以分解成2个5相乘，而26/5只计算了一个5，因此还要再加26/25.
 
 代码：
-python：
+#python：
 class Solution:
     # @param n a integer
     # @return ans a integer
@@ -22,7 +22,9 @@ class Solution:
             zeros += n / 5
             n /= 5
         return zeros
-java：
+
+
+//java：
 class Solution {
     /*
      * param n: As desciption
