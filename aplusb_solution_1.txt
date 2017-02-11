@@ -104,6 +104,13 @@ class Solution {
     }
 }
 
+
+class Solution {
+    /*
+     * param a: The first integer
+     * param b: The second integer
+     * return: The sum of a and b
+     */
 public int aplusb(int a, int b) {
         // Click submit, you will get Accepted!
         if (b == 0) return a;
@@ -111,4 +118,5 @@ public int aplusb(int a, int b) {
         int carry = (a&b)<<1;
         return aplusb(sum, carry);
     }
+}
 
