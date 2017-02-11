@@ -63,7 +63,7 @@ class Solution:
 7     return bitAdd(sum,carry);
 8 }
 
-//c++:
+//java:
 class Solution {
     /*
      * param a: The first integer
